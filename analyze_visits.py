@@ -40,3 +40,5 @@ print("\nMean Costs by Insurance Type:")
 print(mean_costs_by_insurance_type)
 print("\nAge Effects on Walking Speed:")
 print(age_effects_on_walking_speed)
+
+df.to_csv('./ms_data.csv', index=False)
